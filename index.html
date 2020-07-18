@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Online form builder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div>
+        <div class="top-header">
+            <span class="top-header-text"><h2>Form Builder</h2> </span>
+        </div>
+        <div class="container-fluid" style="padding: 0">
+            <div class="row">
+                <div class="col">
+                    <div class="left-panel">
+                        <div class="toggle-button" id="open-button">
+                            <h4 class="toggle-text">Add Form Element <i class="fa fa-plus" style="font-size: 25px; margin-left: 20px"></i> </h4>
+                        </div>
+                        <div class="formfields-panel" id="uni">
+                            <div class="field-section">
+                                <div class="formfields-header">
+                                    <h3>Form Element <i class="fa fa-close close-button" id="close-button"></i></h3>
+                                </div>
+                                <div class="field-section-list">
+                                    <ul>
+                                        <li class="field-item" id="header">
+                                            <div class="field-icon"><i class="fa fa-header"></i></div>
+                                            <div class="field-name">Header</div>
+                                        </li>
+                                        <li class="field-item" id="fullname">
+                                            <div class="field-icon"><i class="fa fa-user"></i></div>
+                                            <div class="field-name">Full name</div>
+                                        </li>
+                                        <li class="field-item" id="email">
+                                            <div class="field-icon"><i class="fa fa-envelope-open-o"></i></div>
+                                            <div class="field-name">Email</div>
+                                        </li>
+                                        <li class="field-item" id="address">
+                                            <div class="field-icon"><i class="fa fa-address-book-o"></i></div>
+                                            <div class="field-name">Address</div>
+                                        </li>
+                                        <li class="field-item" id="phone">
+                                            <div class="field-icon"><i class="fa fa-phone"></i></div>
+                                            <div class="field-name">Phone</div>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <!-- Form starts here -->
+
+                    <div class="form-container">
+
+                        <div class="placeholder-inner-content">
+                            <div class="placeholder-text">Drag your first uestion here from the left.</div>
+                        </div>
+
+                        <ul id="form-container">
+
+                        </ul>
+
+                    </div>
+                </div>
+
+                <div class="col" style="background-color:red">
+                    <div class="properties-section">
+                        <div class="properties-header" id="close-properties">
+                            <h4 class="properties-header-text">Properties<i class="fa fa-plus" style="font-size: 25px; margin-left: 20px"></i> </h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
