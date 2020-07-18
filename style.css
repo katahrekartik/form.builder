@@ -17,6 +17,7 @@ body {
 .top-header-text {}
 
 .left-panel {
+    margin-left: -20px;
     margin-top: 30px;
     position: fixed;
 }
@@ -41,12 +42,13 @@ body {
     overflow: hidden;
     background: #3e4652;
     color: #fff;
-    width: 300px;
+    width: 0px;
 }
 
 .formfields-header {}
 
-.formfields-panel h3 {
+.formfields-panel h3,
+.properties-header h3 {
     font-size: 18px!important;
     line-height: 18px!important;
     margin: 0!important;
@@ -104,7 +106,7 @@ ul {
 }
 
 .form-container {
-    margin-top: 30px;
+    margin-top: 65px;
     background-color: rgb(255, 255, 255);
     width: 100%;
     padding: 20px;
@@ -129,8 +131,7 @@ ul {
 
 .properties-section {
     position: fixed;
-    margin-top: 60px;
-    width: 100%;
+    margin-top: 65px;
 }
 
 
