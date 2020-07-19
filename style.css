@@ -120,7 +120,16 @@ ul {
     margin-top: 10px;
 }
 
-.placeholder-inner-content {
+.form-container input {
+    background-color: #fff;
+}
+
+.placeholder-inner-content,
+.header,
+.email,
+.phone,
+.address,
+.fullname {
     padding: 45px 20px;
     line-height: 36px;
     color: rgba(0, 0, 0, .3);
@@ -132,7 +141,59 @@ ul {
 .properties-section {
     position: fixed;
     margin-top: 65px;
+    overflow: auto;
+    height: 400px;
+}
+
+.properties-header {
+    position: sticky;
 }
 
 
 /* Styles for omponents starts from here */
+
+#properties-container ul,
+li {
+    list-style: none;
+    margin: 0;
+    background-color: #545f6f;
+    color: white;
+    border-bottom: 1px solid #3e4652;
+    padding: 10px 50px 10px 20px;
+}
+
+#properties-container ul,
+li input {
+    background: #3e4652;
+    border: 1px solid #545f6f;
+    color: white;
+    height: 40px;
+    padding-right: 20px;
+}
+
+#properties-container ul,
+li h3 {
+    font-size: 15px;
+    padding: 5px;
+}
+
+#properties-container ul,
+li button {
+    display: inline-block;
+    background-color: #647081;
+    text-transform: uppercase;
+    color: #fff;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+#properties-container ul,
+li button:focus {
+    background-color: #0293e2;
+    border: none;
+}
+
+#properties-container ul,
+li #default {
+    background-color: #0293e2;
+}
