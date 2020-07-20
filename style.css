@@ -42,7 +42,7 @@ body {
     overflow: hidden;
     background: #3e4652;
     color: #fff;
-    width: 0px;
+    width: 0;
 }
 
 .formfields-header {}
@@ -118,10 +118,14 @@ ul {
 
 .form-container ul li {
     margin-top: 10px;
+    border: 1px;
 }
 
 .form-container input {
     background-color: #fff;
+    height: 30px;
+    width: 150px;
+    ;
 }
 
 .placeholder-inner-content,
@@ -142,6 +146,8 @@ ul {
     position: fixed;
     margin-top: 65px;
     overflow: auto;
+    margin-left: 450px;
+    width: 0;
     height: 400px;
 }
 
@@ -187,13 +193,37 @@ li button {
     padding: 5px 10px 5px 10px;
 }
 
+#component-heading {
+    font-size: 25px;
+}
+
 #properties-container ul,
 li button:focus {
     background-color: #0293e2;
     border: none;
 }
 
-#properties-container ul,
-li #default {
-    background-color: #0293e2;
+.alignment-block-text {
+    display: block;
+    padding: 0px 0px 0px 0px;
+}
+
+.alignment-block-input {
+    display: block;
+}
+
+@media (max-width: 576px) {
+    .left-panel {
+        margin-left: -20px;
+        margin-top: 0px;
+        position: relative;
+    }
+    .properties-section {
+        position: relative;
+        margin-top: 0px;
+        overflow: auto;
+        margin-left: 450px;
+        width: 0;
+        height: auto;
+    }
 }
