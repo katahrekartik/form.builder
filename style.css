@@ -125,7 +125,6 @@ ul {
     background-color: #fff;
     height: 30px;
     width: 150px;
-    ;
 }
 
 .placeholder-inner-content,
@@ -225,5 +224,9 @@ li button:focus {
         margin-left: 450px;
         width: 0;
         height: auto;
+    }
+    .form-container input {
+        height: 20px;
+        width: 70px;
     }
 }
